@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Securing Data</string>
+    <!--Lock Check strings -->
+    <string name="lock_exit">Exit</string>
+    <string name="lock_settings">Settings</string>
+    <string name="lock_title">Lock Screen</string>
+    <string name="lock_body">
+        Secure lock screen hasn\'t set up. To continue working with this app,
+        please got to Settings and set a lock screen method.
+    </string>
 </resources>

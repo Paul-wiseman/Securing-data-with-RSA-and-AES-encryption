@@ -91,6 +91,7 @@ class Cryptography(context: Context) {
         decrypted = cipher.doFinal(encrypted)
 
 
+        //TODO: Add code here 3963
         return decrypted
     }
 
@@ -215,7 +216,26 @@ class Cryptography(context: Context) {
 
 
     fun sampleJson(): String {
-        return ""
+        return """{
+        "accountName": "ELEYINMI TIMILEHIN OPEYEMI",
+        "accountNumber": "0137960553",
+        "accountType": "CASA",
+        "amount": 50000.0,
+        "bankCode": "058",
+        "beneficiaryBvn": "22174742414",
+        "beneficiaryKycLevel": "2",
+        "channelCode": "3",
+        "currency": null,
+        "currencyCode": "NGN",
+        "destinationBankCode": "000013",
+        "nameEnquirySessionId": "000018221117101355000893729048",
+        "naration": "Transfer from wallet",
+        "object": null,
+        "pin": "1234",
+        "ref": "m36/TRF/1668642243381",
+        "transactionLocation": "0000,999999",
+        "walletId": "0010233305"
+    }""".trim()
     }
 
 
